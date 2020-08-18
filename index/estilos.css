@@ -1,0 +1,21 @@
+.banner{
+    width: 1350px;
+    height: 200px;
+    border: 1px solid pink
+    margin: auto;
+    
+    background-image: url(PicsArt_08-17-07.44.57.jpg);
+    background-size: 100% 100%;
+    
+    animation-name: banner;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes banner {
+    0%, 50% {
+        background-image: url(PicsArt_08-17-07.44.57.jpg);
+    }
+    51%, 100% {
+        background-image: url(PicsArt_08-17-07.46.39.jpg);
+    }
+ 
